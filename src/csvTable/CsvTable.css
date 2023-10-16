@@ -1,0 +1,16 @@
+table {
+  margin: 10px 0px;
+  width: 100%;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: rgb(18, 17, 17);
+}
+
+th, td {
+  text-align: left;
+  border: 1px solid;
+  padding: 10px;
+}

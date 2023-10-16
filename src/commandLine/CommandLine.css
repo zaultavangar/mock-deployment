@@ -1,0 +1,29 @@
+ .command-line-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .command-line-form {
+      width: 100%; 
+
+      #command-line-input {
+        box-sizing: border-box;
+        width: 100%;
+        border: 1px solid #646cff;
+        border-radius: 5px;
+        padding: 10px;
+        height: 80%;
+        font-size: 1em;
+      }
+    }
+
+    .error-container {
+      padding: 5px;
+      border-radius: 5px;
+      background-color: rgb(151, 24, 24);
+      font-style: italic;
+    }
+
+ }
+ 
+

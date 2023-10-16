@@ -1,0 +1,22 @@
+.output-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  .results-container {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #646cff;
+
+    #command-header {
+      font-weight: bold;
+    }
+
+    #command-content {
+      font-style: italic;
+    }
+
+    #output-header {
+      font-weight: bold;
+    }
+  }
+}
